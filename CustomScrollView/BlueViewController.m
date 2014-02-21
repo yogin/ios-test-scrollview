@@ -1,18 +1,18 @@
 //
-//  RedViewController.m
+//  BlueViewController.m
 //  CustomScrollView
 //
 //  Created by Anthony Powles on 2/21/14.
 //  Copyright (c) 2014 Anthony Powles. All rights reserved.
 //
 
-#import "RedViewController.h"
+#import "BlueViewController.h"
 
-@interface RedViewController ()
+@interface BlueViewController ()
 
 @end
 
-@implementation RedViewController
+@implementation BlueViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,19 +23,10 @@
     return self;
 }
 
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
-	self = [super initWithCoder:aDecoder];
-	if (self) {
-
-	}
-	return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning

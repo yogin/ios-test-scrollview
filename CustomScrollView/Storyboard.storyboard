@@ -43,7 +43,7 @@
         <!--Red View Controller-->
         <scene sceneID="5Ts-hw-172">
             <objects>
-                <viewController id="Fmu-uC-xz7" customClass="RedViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RedViewController" id="Fmu-uC-xz7" customClass="RedViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JFr-Hv-I97"/>
                         <viewControllerLayoutGuide type="bottom" id="b5W-0x-RuH"/>
@@ -62,7 +62,7 @@
         <!--Green View Controller-->
         <scene sceneID="zSL-vT-L4d">
             <objects>
-                <viewController id="lZ2-f1-0ou" customClass="GreenViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GreenViewController" id="lZ2-f1-0ou" customClass="GreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wpl-sh-KOU"/>
                         <viewControllerLayoutGuide type="bottom" id="kxq-OT-L9f"/>

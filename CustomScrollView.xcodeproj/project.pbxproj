@@ -23,6 +23,8 @@
 		1587CD6218B7EE5B00BAA235 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1587CD6118B7EE5B00BAA235 /* MainViewController.m */; };
 		1587CD6518B7F19000BAA235 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1587CD6418B7F19000BAA235 /* RedViewController.m */; };
 		1587CD6818B7F75300BAA235 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1587CD6718B7F75300BAA235 /* GreenViewController.m */; };
+		1587CD6C18B8096C00BAA235 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1587CD6A18B8096C00BAA235 /* BlueViewController.m */; };
+		1587CD6D18B8096C00BAA235 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1587CD6B18B8096C00BAA235 /* BlueViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		1587CD6418B7F19000BAA235 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
 		1587CD6618B7F75300BAA235 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
 		1587CD6718B7F75300BAA235 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		1587CD6918B8096C00BAA235 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		1587CD6A18B8096C00BAA235 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		1587CD6B18B8096C00BAA235 /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +134,9 @@
 				1587CD6418B7F19000BAA235 /* RedViewController.m */,
 				1587CD6618B7F75300BAA235 /* GreenViewController.h */,
 				1587CD6718B7F75300BAA235 /* GreenViewController.m */,
+				1587CD6918B8096C00BAA235 /* BlueViewController.h */,
+				1587CD6A18B8096C00BAA235 /* BlueViewController.m */,
+				1587CD6B18B8096C00BAA235 /* BlueViewController.xib */,
 			);
 			path = CustomScrollView;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 			files = (
 				1587CD3A18B7EE3100BAA235 /* InfoPlist.strings in Resources */,
 				1587CD4218B7EE3100BAA235 /* Images.xcassets in Resources */,
+				1587CD6D18B8096C00BAA235 /* BlueViewController.xib in Resources */,
 				1587CD5F18B7EE3C00BAA235 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +270,7 @@
 			files = (
 				1587CD6518B7F19000BAA235 /* RedViewController.m in Sources */,
 				1587CD4018B7EE3100BAA235 /* IDZAppDelegate.m in Sources */,
+				1587CD6C18B8096C00BAA235 /* BlueViewController.m in Sources */,
 				1587CD6818B7F75300BAA235 /* GreenViewController.m in Sources */,
 				1587CD6218B7EE5B00BAA235 /* MainViewController.m in Sources */,
 				1587CD3C18B7EE3100BAA235 /* main.m in Sources */,
